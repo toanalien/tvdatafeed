@@ -10,6 +10,7 @@ from websocket import create_connection
 import requests
 import json
 
+logging.basicConfig(level='DEBUG')
 logger = logging.getLogger(__name__)
 
 
